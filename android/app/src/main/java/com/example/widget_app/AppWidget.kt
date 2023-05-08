@@ -33,32 +33,7 @@ class AppWidget : AppWidgetProvider() {
     }
 
 
-//    override fun onAppWidgetOptionsChanged(
-//        context: Context,
-//        appWidgetManager: AppWidgetManager,
-//        appWidgetId: Int,
-//        newOptions: Bundle
-//    ) {
-////        var minWidth:Int = 0
-////        var maxHeight:Int = 0
-////        var maxWidth:Int = 0
-////        var minHeight:Int = 0
-//        val views = RemoteViews(context.packageName, R.layout.app_widget)
-//        super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions)
-//           var minWidth = newOptions.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH)
-//           var maxHeight= newOptions.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT)
-//            var maxWidth = newOptions.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_WIDTH)
-//            var minHeight = newOptions.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT)
-//        if(minWidth > 140){
-//            views.setViewVisibility(R.id.ly,View.VISIBLE)
-//            views.setViewVisibility(R.id.appwidget_text,View.GONE)
-//        }else{
-//            views.setViewVisibility(R.id.ly,View.GONE)
-//            views.setViewVisibility(R.id.appwidget_text,View.VISIBLE)
-//        }
-//        appWidgetManager.updateAppWidget(appWidgetId, views)
-//
-//    }
+
 
     override fun onReceive(context: Context, intent: Intent) {
         super.onReceive(context, intent)

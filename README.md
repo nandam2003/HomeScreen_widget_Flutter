@@ -18,7 +18,7 @@ The app comes with a simple widget which will show the count of no. of times the
 
 And also when pressed on the widget will open the app even if it is not running in the background.
 
-## Custamize
+## Customize
 You can change the appereance of the widget by changing the xml file present at HomeScreen_widget_Flutter/android/app/src/main/res/layout/app_widget.xml
 
 And the size of the widget can altered at HomeScreen_widget_Flutter/android/app/src/main/res/xml/app_widget_info.xml
